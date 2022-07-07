@@ -1,0 +1,31 @@
+{
+  "name": "vite.vue3pdf.demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@bundled-es-modules/pdfjs-dist": "2.5.207-rc1",
+    "@jbtje/vite-vue3pdf": "^0.1.0",
+    "@types/axios": "^0.14.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "dayjs": "^1.11.3",
+    "tailwindcss": "^3.1.4",
+    "vue": "^3.2.37",
+    "vue-i18n": "^9.1.10",
+    "vue-router": "^4.0.16",
+    "vue-typed-mixins": "^0.2.0",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^3.4.0",
+    "autoprefixer": "^10.4.7",
+    "axios": "^0.27.2",
+    "laravel-vite-plugin": "^0.3.0",
+    "postcss": "^8.4.14",
+    "sass": "^1.53.0",
+    "vite": "^2.9.13"
+  }
+}

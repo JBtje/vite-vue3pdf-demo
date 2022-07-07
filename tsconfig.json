@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "module": "es2022",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    //"strict": true,
+    "strictPropertyInitialization": false,
+    "target": "es2022",
+    "typeRoots": [
+      "./node_modules/@types",
+    ],
+    "types": [
+      "node",
+      "vite/client",
+      "@intlify/vite-plugin-vue-i18n/client"
+    ],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "lib": [
+      "dom",
+      "es2017"
+    ]
+  },
+  "files": [
+    "./vue-shims.d.ts"
+  ],
+  "include": [
+    "resources/js/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
