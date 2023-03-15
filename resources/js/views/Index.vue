@@ -21,6 +21,8 @@
             <div class="flex justify-between">
                 <div>
                     {{ $t( 'rotate' ) }}:
+                    {{ pdf.rotate }}
+
                     <input type="button"
                            class="p-2"
                            @click="pdf.rotate += 90"

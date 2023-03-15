@@ -15,7 +15,6 @@
     "types": [
       "node",
       "vite/client",
-      "@intlify/vite-plugin-vue-i18n/client"
     ],
     "esModuleInterop": true,
     "allowJs": true,

@@ -39,6 +39,6 @@ Deploy application using
 sh deploy.sh
 ```
 
-### Don't forget to manually add [/pdfjs/pdf.worker.js](https://github.com/JBtje/vite-vue3pdf-demo/raw/master/public/pdfjs/pdf.worker.js "Demo") in your own project.
+### Don't forget to manually add [/pdfjs/pdf.worker.js](https://github.com/JBtje/vite-vue3pdf-demo/raw/master/public/pdfjs/pdf.worker.js) in your own project.
 
 ![Demo](https://github.com/JBtje/vite-vue3pdf-demo/raw/master/demo.png "Demo")
